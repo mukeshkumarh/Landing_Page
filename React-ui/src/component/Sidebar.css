@@ -1,0 +1,31 @@
+.sidebar {
+  width: 200px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  color: #000;
+  cursor: pointer;
+}
+
+.sidebar-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.sidebar-item:hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar-item img {
+  margin-right: 10px;
+}
+
+.sidebar-item-active {
+  background-color: #ffe0d5;
+  border-radius: 5px;
+  padding: 10px 10px;
+}

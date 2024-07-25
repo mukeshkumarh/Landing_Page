@@ -1,0 +1,64 @@
+.fuel-summary {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.fuel-summary h2 {
+  margin-bottom: 20px;
+}
+
+.fuel-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fuel-gauge {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #1e90ff 0%,
+    #1e90ff 47%,
+    #e6e6e6 47%,
+    #e6e6e6 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fuel-level span {
+  font-size: 24px;
+  color: #333;
+}
+
+.fuel-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.fuel-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.fuel-item h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.fuel-item p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

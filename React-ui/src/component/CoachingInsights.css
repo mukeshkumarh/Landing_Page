@@ -1,0 +1,54 @@
+.coaching-insights {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7f9; /* Background color of the container */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.coaching-insights h2 {
+  font-size: 1.5em;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.insights-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.insight-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.insight-item:nth-child(1) {
+  color: #000;
+}
+
+.insight-item:nth-child(2),
+.insight-item:nth-child(3) {
+  color: #000;
+}
+
+.insight-button {
+  background-color: #5bdaff; /* Button background color */
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.insight-button::after {
+  content: '🛈'; /* Info icon */
+  font-size: 1.2em;
+  color: white;
+}

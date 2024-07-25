@@ -1,0 +1,16 @@
+.app {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    padding-top: 0; /* Remove top padding to fit the navbar */
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      padding: 10px;
+    }
+  }
+  
